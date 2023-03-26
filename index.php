@@ -16,7 +16,10 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/variables.css" rel="stylesheet">
 
 </head>
 
@@ -44,6 +48,7 @@
                     <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
                     <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="./blog">Blog</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li>
                         <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#login">Sign
@@ -317,7 +322,6 @@
 
                 <div class="section-title">
                     <h2>My Resume</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
                 </div>
 
                 <div class="row">
@@ -386,7 +390,8 @@
                                     major marketing goals
                                 </li>
                                 <li>
-                                    This project based on Php, jQuery, MySQL, Bitbukcet, Jira
+                                    Project Consist UI/UX(Figma), HTML, CSS, JavaScript, jQuery, Ajax, MySQL, PHP, Jira,
+                                    Git
                                 </li>
                             </ul>
                             </p>
@@ -410,8 +415,7 @@
                                     and accuracy of their designs
                                 </li>
                                 <li>
-                                    Project Consist UI/UX(Figma), HTML, CSS, JavaScript, jQuery, Ajax, MySQL, PHP, Jira,
-                                    Git
+                                    This project based on Php, jQuery, MySQL, Bitbukcet, Jira
                                 </li>
                             </ul>
                             </p>
@@ -503,143 +507,87 @@
                         </div>
                     </div>
                 </div>
-                <form method="get" action="file.doc">
-                    <button class="btn btn-success btn-sm"><i class="fa-solid fa-download"
+                <a href="./assets/resume/2023_Vidusha_CV.pdf" download="2023 Vidusha CV.pdf">
+                    <button class="btn btn-success btn-sm"><i class="fa-solid fa-download" download
                             style="margin-right: 4px;"></i>Download Resume</button>
-                </form>
+                </a>
+
             </div>
-        </section><!-- End My Resume Section -->
+        </section>
+        <!-- End My Resume Section -->
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="projects" class="portfolio section-bg">
+        <section id="projects" class="resume">
             <div class="container">
-
                 <div class="section-title">
-                    <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>My Projects</h2>
                 </div>
 
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
+                <div class="row">
+
+                    <div class="col-lg-10 mx-auto">
+                        <h3 class="resume-title">Projects Involved</h3>
+                        <div class="resume-item">
+                            <h4>Warehouse ERP System</h4>
+                            <p><em>Al Sakb Computer Devices & Mobiles Phone TR LLC, Industrial Area 5, Al Shajah, UAE
+                                </em></p>
+                            <ul>
+                                <li>
+                                    Project Consist UI/UX(Figma), HTML, CSS, JavaScript, jQuery, Ajax, MySQL, PHP, Jira,
+                                    Git </li>
+                                <li>Features - User, Inventory, Sales, Accounts, Payroll, Packing, Employee Performance
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Nsoft ERP System</h4>
+                            <p><em>Screenline Holdings, BOI Zone, Katunayake, Colombo, Sri Lanka</em></p>
+                            <ul>
+                                <li>
+                                    Developed numerous programs (financial and several department ) and made sure they
+                                    exceeded the expectations of our clients
+                                </li>
+                                <li>Features - </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Nsoft ERP System</h4>
+                            <p><em>PC Plus Computers, Kandy, Sri Lanka</em></p>
+                            <ul>
+                                <li>
+                                    Developed numerous programs (financial and several department ) and made sure they
+                                    exceeded the expectations of our clients
+                                </li>
+                                <li>Features - </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Nsoft ERP System</h4>
+                            <p><em>PC Plus Computers, Kandy, Sri Lanka</em></p>
+                            <ul>
+                                <li>
+                                    Developed numerous programs (financial and several department ) and made sure they
+                                    exceeded the expectations of our clients
+                                </li>
+                                <li>Features - </li>
+                            </ul>
+                            </p>
+                        </div>
+
+
                     </div>
                 </div>
 
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
-        </section><!-- End Portfolio Section -->
+        </section>
+        <!-- End Portfolio Section -->
 
         <!-- ======= Services Section ======= -->
-        <section id="services" class="services section-bg">
+        <section id="services" class="services">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -650,67 +598,53 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                        data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                            <h4><a href="">Lorem Ipsum</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                excepturi</p>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
                         data-aos-delay="200">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4><a href="">Sed ut perspici</a></h4>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore</p>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
                         data-aos-delay="300">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4><a href="">Magni Dolores</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            <h4 class="title"><a href="">Magni Dolores</a></h4>
+                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia</p>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
                         data-aos-delay="400">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-layer"></i></div>
-                            <h4><a href="">Nemo Enim</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <h4 class="title"><a href="">Nemo Enim</a></h4>
+                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                blanditiis</p>
                         </div>
                     </div>
+
                 </div>
+
             </div>
         </section><!-- End Services Section -->
 
-        <!-- ======= Cta Section ======= -->
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-in">
-
-                <div class="row">
-                    <div class="col-lg-9 text-center text-lg-start">
-                        <h3>Call To Action</h3>
-                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                            deserunt
-                            mollit anim id est laborum.</p>
-                    </div>
-                    <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="#">Call To Action</a>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Cta Section -->
-
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+        <section id="contact" class="contact section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -721,53 +655,24 @@
                 </div>
 
                 <div class="row">
-
-                    <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
-                            <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                            </div>
-
-                            <div class="email">
-                                <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@example.com</p>
-                            </div>
-
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
-                            </div>
-
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="background: #2b2b2b;">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form"
-                            style="background: #2b2b2b;">
+                    <div class="col-lg-6 mt-4 mt-md-0">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your name"
-                                        id="name" required>
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" name="email" placeholder="Email Address"
-                                        id="email" required>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                    id="subject" required>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
                             </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" placeholder="Message" rows="10"
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
                                     required></textarea>
                             </div>
                             <div class="my-3">
@@ -778,9 +683,34 @@
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
                     </div>
+                    <div class="col-lg-6">
 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="info-box">
+                                    <i class="bx bx-map"></i>
+                                    <h3>My Address</h3>
+                                    <p>52/A, Mariyawatte, Gampola, Sri Lanka</p>
+                                    <p>Abu Shagara, Al Sharjah, UAE</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-envelope"></i>
+                                    <h3>Email Address</h3>
+                                    <p>vidusha.wijekoon11@gmail.com<br>vidusha.wijekoon11@outlook.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-phone-call"></i>
+                                    <h3>Contact Number</h3>
+                                    <p>+94 76 887 1747<br>+971 58 825 0962</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </section><!-- End Contact Section -->
 
@@ -796,7 +726,7 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h3>Vidusha</h3>
                         <p>
-                            52/A Mariyawattte <br>
+                            52/A Mariyawatte <br>
                             Gampola, Kandy 20000<br>
                             Sri Lanka <br><br>
                             <strong>Phone:</strong> +971 58 825 0962<br>
@@ -819,20 +749,21 @@
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">ERP System</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                        <h4>My Social Networks</h4>
+                        <p>Free to contact via any of this social media link</p>
                         <div class="social-links mt-3">
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="facebook"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="facebook"><i class="fa-brands fa-skype"></i></a>
+                            <a href="#" class="facebook"><i class="fa-brands fa-linkedin"></i></a>
+
                         </div>
                     </div>
 
