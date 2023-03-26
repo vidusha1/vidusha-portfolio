@@ -682,7 +682,10 @@ section {
     padding-bottom: 80px;
 }
 
-.services .section-title h2,
+.services .section-title h2 {
+    color: #ffb727
+}
+
 .services .section-title p {
     color: #fff;
 }

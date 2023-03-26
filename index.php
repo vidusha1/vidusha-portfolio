@@ -48,7 +48,7 @@
                     <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
                     <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="./blog">Blog</a></li>
+                    <li><a class="nav-link scrollto" href="./blog.php">Blog</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li>
                         <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#login">Sign
@@ -529,8 +529,10 @@
                         <h3 class="resume-title">Projects Involved</h3>
                         <div class="resume-item">
                             <h4>Warehouse ERP System</h4>
-                            <p><em>Al Sakb Computer Devices & Mobiles Phone TR LLC, Industrial Area 5, Al Shajah, UAE
-                                </em></p>
+                            <p>
+                                <em>Al Sakb Computer Devices & Mobiles Phone TR LLC, Industrial Area 5, Al Shajah, UAE
+                                </em>
+                            </p>
                             <ul>
                                 <li>
                                     Project Consist UI/UX(Figma), HTML, CSS, JavaScript, jQuery, Ajax, MySQL, PHP, Jira,
@@ -538,7 +540,6 @@
                                 <li>Features - User, Inventory, Sales, Accounts, Payroll, Packing, Employee Performance
                                 </li>
                             </ul>
-                            </p>
                         </div>
                         <div class="resume-item">
                             <h4>Nsoft ERP System</h4>
@@ -548,40 +549,33 @@
                                     Developed numerous programs (financial and several department ) and made sure they
                                     exceeded the expectations of our clients
                                 </li>
-                                <li>Features - </li>
+                                <li>Features - Finance</li>
                             </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Infocuz Web Projec</h4>
+                            <p><em>Freelance</em></p>
+                            <ul>
+                                <li>
+                                    Real State - Portfolio, Photography
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Cyberpunk NFT Web Project</h4>
+                            <p>
+                                <em>Haiqi Software Technology, Zhejiang , China</em>
                             </p>
                         </div>
                         <div class="resume-item">
-                            <h4>Nsoft ERP System</h4>
-                            <p><em>PC Plus Computers, Kandy, Sri Lanka</em></p>
-                            <ul>
-                                <li>
-                                    Developed numerous programs (financial and several department ) and made sure they
-                                    exceeded the expectations of our clients
-                                </li>
-                                <li>Features - </li>
-                            </ul>
+                            <h4>Hyperchip Company Portfolio Web Project</h4>
+                            <p>
+                                <em>Hyperchip Technology, Zhejiang, China</em>
                             </p>
                         </div>
-                        <div class="resume-item">
-                            <h4>Nsoft ERP System</h4>
-                            <p><em>PC Plus Computers, Kandy, Sri Lanka</em></p>
-                            <ul>
-                                <li>
-                                    Developed numerous programs (financial and several department ) and made sure they
-                                    exceeded the expectations of our clients
-                                </li>
-                                <li>Features - </li>
-                            </ul>
-                            </p>
-                        </div>
-
-
                     </div>
                 </div>
-
-
             </div>
         </section>
         <!-- End Portfolio Section -->
@@ -602,7 +596,7 @@
                         data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                            <h4 class="title"><a href="">Web Develpoment</a></h4>
                             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
                                 excepturi</p>
                         </div>
@@ -612,7 +606,7 @@
                         data-aos-delay="200">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                            <h4 class="title"><a href="">Frontend Development</a></h4>
                             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                                 dolore</p>
                         </div>
@@ -622,7 +616,7 @@
                         data-aos-delay="300">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
-                            <h4 class="title"><a href="">Magni Dolores</a></h4>
+                            <h4 class="title"><a href="">Backend Development</a></h4>
                             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                 officia</p>
                         </div>
@@ -632,7 +626,7 @@
                         data-aos-delay="400">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-layer"></i></div>
-                            <h4 class="title"><a href="">Nemo Enim</a></h4>
+                            <h4 class="title"><a href="">Full Stack Development</a></h4>
                             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
                                 blanditiis</p>
                         </div>
@@ -781,7 +775,6 @@
             </div>
         </div>
     </footer><!-- End Footer -->
-    <div id="preloader"></div>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="fa-solid fa-arrow-up"></i></a>
